@@ -108,3 +108,9 @@ footer .legal{border-top:1px solid #2d3d32;margin-top:36px;padding-top:18px;font
 .vtile a.vmore{position:relative;z-index:2;display:inline-block;margin-top:12px;font-size:.8rem;color:#fff;border:1px solid rgba(255,255,255,.45);border-radius:99px;padding:4px 12px;text-decoration:none}
 .vtile a.vmore:hover{background:rgba(255,255,255,.14)}
 @media(max-width:560px){.vtiles{grid-template-columns:1fr 1fr;gap:12px}.vtile{min-height:150px;padding:16px;gap:18px;border-radius:14px}.vtile .play{width:38px;height:38px}.vtile b{font-size:1.3rem}.vtile small{font-size:.66rem}}
+
+.brand.has-logo{display:inline-flex;align-items:center;gap:12px}
+.brand-mark{height:18px;width:auto;display:block;flex:none}
+.footer-logo{display:block;width:300px;max-width:100%;height:auto}
+.vtile::before{content:"";position:absolute;right:-30px;bottom:18px;width:210px;height:47px;background:url(/img/brand/sany-bird-outline-white.png) center/contain no-repeat;opacity:.16;pointer-events:none}
+@media(max-width:560px){.brand-mark{height:14px}.brand.has-logo{gap:9px}.vtile::before{width:150px;height:33px;right:-24px}}
